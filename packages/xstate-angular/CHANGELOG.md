@@ -1,5 +1,11 @@
 # @zurab/xstate-angular
 
+## 1.0.1
+
+### Patch Changes
+
+- Point `homepage`, `repository.url`, and `bugs.url` at the actual fork (`ZurabDev/xstate`) so npmjs.com renders the README and links to the correct source.
+
 ## 1.0.0
 
 ### Major Changes

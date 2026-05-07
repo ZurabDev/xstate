@@ -1,6 +1,6 @@
 {
   "name": "@zurab/xstate-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "XState tools for Angular (Zurab fork)",
   "keywords": [
     "state",
@@ -9,8 +9,8 @@
     "xstate",
     "angular"
   ],
-  "author": "David Khourshid <davidkpiano@gmail.com>",
-  "homepage": "https://github.com/statelyai/xstate/tree/main/packages/xstate-angular#readme",
+  "author": "Zurab",
+  "homepage": "https://github.com/ZurabDev/xstate/tree/main/packages/xstate-angular#readme",
   "license": "MIT",
   "main": "dist/zurab-xstate-angular.cjs.js",
   "module": "dist/zurab-xstate-angular.esm.js",
@@ -34,10 +34,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/statelyai/xstate.git"
+    "url": "git+https://github.com/ZurabDev/xstate.git",
+    "directory": "packages/xstate-angular"
   },
   "bugs": {
-    "url": "https://github.com/statelyai/xstate/issues"
+    "url": "https://github.com/ZurabDev/xstate/issues"
   },
   "peerDependencies": {
     "@angular/core": "^19.0.0",
