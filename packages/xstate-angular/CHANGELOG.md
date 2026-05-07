@@ -1,5 +1,11 @@
 # @zurab/xstate-angular
 
+## 1.0.2
+
+### Patch Changes
+
+- Republish to trigger npmjs.com README re-index. Registry already had the README on 1.0.1 (`readmeFilename: README.md`, full content stored in the packument); the website front-end was lagging because `@zurab` is a brand-new scope. No code changes.
+
 ## 1.0.1
 
 ### Patch Changes

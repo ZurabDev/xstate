@@ -1,6 +1,6 @@
 {
   "name": "@zurab/xstate-angular",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "XState tools for Angular (Zurab fork)",
   "keywords": [
     "state",
