@@ -1,0 +1,65 @@
+{
+  "name": "@zurab/xstate-angular",
+  "version": "1.0.0",
+  "description": "XState tools for Angular (Zurab fork)",
+  "keywords": [
+    "state",
+    "machine",
+    "statechart",
+    "xstate",
+    "angular"
+  ],
+  "author": "David Khourshid <davidkpiano@gmail.com>",
+  "homepage": "https://github.com/statelyai/xstate/tree/main/packages/xstate-angular#readme",
+  "license": "MIT",
+  "main": "dist/zurab-xstate-angular.cjs.js",
+  "module": "dist/zurab-xstate-angular.esm.js",
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./dist/zurab-xstate-angular.cjs.mjs",
+        "default": "./dist/zurab-xstate-angular.cjs.js"
+      },
+      "module": "./dist/zurab-xstate-angular.esm.js",
+      "import": "./dist/zurab-xstate-angular.cjs.mjs",
+      "default": "./dist/zurab-xstate-angular.cjs.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "dist/zurab-xstate-angular.cjs.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/statelyai/xstate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/statelyai/xstate/issues"
+  },
+  "peerDependencies": {
+    "@angular/core": "^19.0.0",
+    "xstate": "workspace:^"
+  },
+  "devDependencies": {
+    "@analogjs/vite-plugin-angular": "^1.21.2",
+    "@angular/build": "^19.0.0",
+    "@angular/common": "^19.0.0",
+    "@angular/compiler": "^19.0.0",
+    "@angular/compiler-cli": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/platform-browser": "^19.0.0",
+    "@angular/platform-browser-dynamic": "^19.0.0",
+    "jsdom": "^26.0.0",
+    "rxjs": "^7.8.1",
+    "xstate": "workspace:^",
+    "zone.js": "^0.15.0"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      "./index.ts"
+    ]
+  }
+}
